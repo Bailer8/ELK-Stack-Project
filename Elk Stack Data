@@ -1,0 +1,3158 @@
+Discover
+Elkstack Project
+
+Discover
+Visualize
+Dashboard
+Canvas
+Maps
+Machine Learning
+Metrics
+Logs
+APM
+Uptime
+SIEM
+Dev Tools
+Stack Monitoring
+
+    Management
+
+Elkstack Project
+Selected fields
+
+    _source
+
+Available fields
+59 hits
+May 9, 2020 @ 17:57:40.642 - May 9, 2020 @ 18:12:40.643 —
+Documents
+	Time
+_source
+May 9, 2020 @ 18:12:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,200,733
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:12:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2150,"time":{"ms":15}},"total":{"ticks":5600,"time":{"ms":15},"value":5600},"user":{"ticks":3450}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9270045}},"memstats":{"gc_next":9980736,"memory_alloc":5513656,"memory_total":399507728},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.06,"15":0,"5":0.01,"norm":{"1":0.03,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:12:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    AWh--3EBgVvfk2Kq75Do
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:12:06.000
+
+May 9, 2020 @ 18:12:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    739,499
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:12:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2220,"time":{"ms":2}},"total":{"ticks":4670,"time":{"ms":20},"value":4670},"user":{"ticks":2450,"time":{"ms":18}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9270042}},"memstats":{"gc_next":9850224,"memory_alloc":5341464,"memory_total":336557632},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":342},"write":{"bytes":2027}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0.02,"norm":{"1":0.005,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:12:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    Amh_-3EBgVvfk2KqDpCR
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:12:06.000
+
+May 9, 2020 @ 18:11:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    738,442
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:11:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2220,"time":{"ms":8}},"total":{"ticks":4650,"time":{"ms":11},"value":4650},"user":{"ticks":2430,"time":{"ms":3}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9240041}},"memstats":{"gc_next":9871664,"memory_alloc":7867232,"memory_total":335519736},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2026}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0.02,"norm":{"1":0.005,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:11:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    _2h--3EBgVvfk2KqhY_Y
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:11:36.000
+
+May 9, 2020 @ 18:11:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,199,689
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:11:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2130,"time":{"ms":5}},"total":{"ticks":5580,"time":{"ms":13},"value":5580},"user":{"ticks":3450,"time":{"ms":8}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9240044}},"memstats":{"gc_next":9979552,"memory_alloc":8215496,"memory_total":398648360},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:11:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    AGh--3EBgVvfk2KqjpBA
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:11:36.000
+
+May 9, 2020 @ 18:11:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,198,645
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:11:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2130,"time":{"ms":1}},"total":{"ticks":5570,"time":{"ms":10},"value":5570},"user":{"ticks":3440,"time":{"ms":9}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9210044}},"memstats":{"gc_next":9979552,"memory_alloc":7435960,"memory_total":397868824},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":343},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:11:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    _Wh--3EBgVvfk2KqBY-G
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:11:06.000
+
+May 9, 2020 @ 18:11:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    737,386
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:11:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2210,"time":{"ms":6}},"total":{"ticks":4630,"time":{"ms":13},"value":4630},"user":{"ticks":2420,"time":{"ms":7}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9210043}},"memstats":{"gc_next":9871664,"memory_alloc":7006008,"memory_total":334658512},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":342},"write":{"bytes":2027}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.02,"15":0,"5":0.02,"norm":{"1":0.01,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:11:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    _mh--3EBgVvfk2KqJI8u
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:11:06.000
+
+May 9, 2020 @ 18:10:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    736,329
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:10:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2200,"time":{"ms":4}},"total":{"ticks":4620,"time":{"ms":12},"value":4620},"user":{"ticks":2420,"time":{"ms":8}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9180042}},"memstats":{"gc_next":9871664,"memory_alloc":6316800,"memory_total":333969304},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2028}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.04,"15":0,"5":0.03,"norm":{"1":0.02,"15":0,"5":0.015}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:10:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    -2h9-3EBgVvfk2Kqm491
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:10:36.000
+
+May 9, 2020 @ 18:10:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,197,600
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:10:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2120,"time":{"ms":2}},"total":{"ticks":5550,"time":{"ms":13},"value":5550},"user":{"ticks":3430,"time":{"ms":11}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9180044}},"memstats":{"gc_next":9979552,"memory_alloc":6386512,"memory_total":396819376},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":1996}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:10:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    _Gh9-3EBgVvfk2Kqo4_d
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:10:36.000
+
+May 9, 2020 @ 18:10:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.type:
+    filebeat
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    735,271
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:10:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2200,"time":{"ms":8}},"total":{"ticks":4610,"time":{"ms":16},"value":4610},"user":{"ticks":2410,"time":{"ms":8}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9150041}},"memstats":{"gc_next":9871664,"memory_alloc":5255912,"memory_total":332908416},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2020}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.07,"15":0,"5":0.03,"norm":{"1":0.035,"15":0,"5":0.015}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:10:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    -mh9-3EBgVvfk2KqOY_M
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:10:06.000
+
+May 9, 2020 @ 18:10:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,196,571
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:10:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2120},"total":{"ticks":5540,"time":{"ms":16},"value":5540},"user":{"ticks":3420,"time":{"ms":16}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9150044}},"memstats":{"gc_next":9979552,"memory_alloc":5517576,"memory_total":395950440},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2029}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:10:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    -Wh9-3EBgVvfk2KqG48j
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:10:06.000
+
+May 9, 2020 @ 18:09:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    734,221
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:09:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2190,"time":{"ms":6}},"total":{"ticks":4590,"time":{"ms":12},"value":4590},"user":{"ticks":2400,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9120042}},"memstats":{"gc_next":9848048,"memory_alloc":7963440,"memory_total":332051512},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2027}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0.02,"norm":{"1":0,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:09:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    92h8-3EBgVvfk2KqsY8T
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:09:36.000
+
+May 9, 2020 @ 18:09:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,195,513
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:09:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2120,"time":{"ms":4}},"total":{"ticks":5520,"time":{"ms":10},"value":5520},"user":{"ticks":3400,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9120045}},"memstats":{"gc_next":9978720,"memory_alloc":8309536,"memory_total":395176600},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":347},"write":{"bytes":2028}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0.01,"norm":{"1":0.005,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:09:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    -Gh8-3EBgVvfk2KquY95
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:09:36.000
+
+May 9, 2020 @ 18:09:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,194,456
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:09:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2120,"time":{"ms":7}},"total":{"ticks":5520,"time":{"ms":11},"value":5520},"user":{"ticks":3400,"time":{"ms":4}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9090044}},"memstats":{"gc_next":9978720,"memory_alloc":7440152,"memory_total":394307216},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2029}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.02,"15":0,"5":0.01,"norm":{"1":0.01,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:09:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    9Wh8-3EBgVvfk2KqMI_A
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:09:06.000
+
+May 9, 2020 @ 18:09:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    733,164
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:09:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2190,"time":{"ms":8}},"total":{"ticks":4590,"time":{"ms":11},"value":4590},"user":{"ticks":2400,"time":{"ms":3}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9090043}},"memstats":{"gc_next":9848048,"memory_alloc":7008304,"memory_total":331096376},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":342},"write":{"bytes":2007}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0.02,"norm":{"1":0.005,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:09:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    9mh8-3EBgVvfk2KqT49q
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:09:06.000
+
+May 9, 2020 @ 18:08:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    732,123
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:08:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2180,"time":{"ms":11}},"total":{"ticks":4570,"time":{"ms":11},"value":4570},"user":{"ticks":2390}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9060041}},"memstats":{"gc_next":9848048,"memory_alloc":6128936,"memory_total":330217008},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2028}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.02,"15":0,"5":0.02,"norm":{"1":0.01,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:08:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    82h7-3EBgVvfk2Kqxo-v
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:08:36.000
+
+May 9, 2020 @ 18:08:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,193,398
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:08:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2110,"time":{"ms":6}},"total":{"ticks":5500,"time":{"ms":12},"value":5500},"user":{"ticks":3390,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9060044}},"memstats":{"gc_next":9978720,"memory_alloc":6384560,"memory_total":393251624},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2009}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.03,"15":0,"5":0.01,"norm":{"1":0.015,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:08:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    9Gh7-3EBgVvfk2Kqz48X
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:08:36.000
+
+May 9, 2020 @ 18:08:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    731,065
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:08:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2170,"time":{"ms":14}},"total":{"ticks":4560,"time":{"ms":20},"value":4560},"user":{"ticks":2390,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9030043}},"memstats":{"gc_next":9848048,"memory_alloc":5213200,"memory_total":329301272},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2028}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.03,"15":0,"5":0.02,"norm":{"1":0.015,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:08:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    8mh7-3EBgVvfk2KqZY8H
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:08:06.000
+
+May 9, 2020 @ 18:08:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,192,356
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:08:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2110},"total":{"ticks":5500,"time":{"ms":18},"value":5500},"user":{"ticks":3390,"time":{"ms":18}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9030044}},"memstats":{"gc_next":9978720,"memory_alloc":5518600,"memory_total":392385664},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.06,"15":0,"5":0.01,"norm":{"1":0.03,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:08:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    8Wh7-3EBgVvfk2KqRo9e
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:08:06.000
+
+May 9, 2020 @ 18:07:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    730,007
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:07:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2150,"time":{"ms":10}},"total":{"ticks":4540,"time":{"ms":12},"value":4540},"user":{"ticks":2390,"time":{"ms":2}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":9000042}},"memstats":{"gc_next":9865520,"memory_alloc":7872352,"memory_total":328387912},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":343},"write":{"bytes":2028}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.06,"15":0,"5":0.03,"norm":{"1":0.03,"15":0,"5":0.015}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:07:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    72h6-3EBgVvfk2Kq3I9N
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:07:36.000
+
+May 9, 2020 @ 18:07:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,191,312
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:07:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2110,"time":{"ms":1}},"total":{"ticks":5480,"time":{"ms":10},"value":5480},"user":{"ticks":3370,"time":{"ms":9}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":9000044}},"memstats":{"gc_next":9977152,"memory_alloc":8113296,"memory_total":391415680},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:07:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    8Gh6-3EBgVvfk2Kq5I-0
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:07:36.000
+
+May 9, 2020 @ 18:07:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.type:
+    filebeat
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    728,949
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:07:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2140,"time":{"ms":8}},"total":{"ticks":4520,"time":{"ms":13},"value":4520},"user":{"ticks":2380,"time":{"ms":5}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8970042}},"memstats":{"gc_next":9865520,"memory_alloc":7001144,"memory_total":327516704},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2027}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0.01,"norm":{"1":0.005,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:07:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    7mh6-3EBgVvfk2Kqeo-k
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:07:06.000
+
+May 9, 2020 @ 18:07:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,190,268
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:07:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2100,"time":{"ms":5}},"total":{"ticks":5460,"time":{"ms":12},"value":5460},"user":{"ticks":3360,"time":{"ms":7}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8970044}},"memstats":{"gc_next":9977152,"memory_alloc":7250952,"memory_total":390553336},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:07:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    7Wh6-3EBgVvfk2KqW4_7
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:07:06.000
+
+May 9, 2020 @ 18:06:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    727,892
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:06:36.148Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2130,"time":{"ms":2}},"total":{"ticks":4510,"time":{"ms":11},"value":4510},"user":{"ticks":2380,"time":{"ms":9}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8940043}},"memstats":{"gc_next":9865520,"memory_alloc":6126896,"memory_total":326642456},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2027}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0.02,"norm":{"1":0.005,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:06:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    62h5-3EBgVvfk2Kq8Y_r
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:06:36.000
+
+May 9, 2020 @ 18:06:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,189,224
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:06:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2100,"time":{"ms":3}},"total":{"ticks":5450,"time":{"ms":11},"value":5450},"user":{"ticks":3350,"time":{"ms":8}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8940044}},"memstats":{"gc_next":9977152,"memory_alloc":6387840,"memory_total":389690224},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:06:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    7Gh5-3EBgVvfk2Kq-o9S
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:06:36.000
+
+May 9, 2020 @ 18:06:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    726,835
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:06:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2130,"time":{"ms":8}},"total":{"ticks":4500,"time":{"ms":20},"value":4500},"user":{"ticks":2370,"time":{"ms":12}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8910042}},"memstats":{"gc_next":9865520,"memory_alloc":5348960,"memory_total":325864520},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2026}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.02,"15":0,"5":0.02,"norm":{"1":0.01,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:06:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    6mh5-3EBgVvfk2KqkI9B
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:06:06.000
+
+May 9, 2020 @ 18:06:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.type:
+    filebeat
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,188,179
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:06:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2100,"time":{"ms":1}},"total":{"ticks":5440,"time":{"ms":19},"value":5440},"user":{"ticks":3340,"time":{"ms":18}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8910044}},"memstats":{"gc_next":9977152,"memory_alloc":5694072,"memory_total":388996456},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:06:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    6Wh5-3EBgVvfk2KqcY-Y
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:06:06.000
+
+May 9, 2020 @ 18:05:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    725,779
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:05:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2120,"time":{"ms":6}},"total":{"ticks":4480,"time":{"ms":12},"value":4480},"user":{"ticks":2360,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8880042}},"memstats":{"gc_next":9863360,"memory_alloc":7870536,"memory_total":324824256},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2035}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.04,"15":0,"5":0.02,"norm":{"1":0.02,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:05:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    52h5-3EBgVvfk2KqB4-I
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:05:36.000
+
+May 9, 2020 @ 18:05:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.type:
+    filebeat
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,187,135
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:05:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2090,"time":{"ms":5}},"total":{"ticks":5420,"time":{"ms":13},"value":5420},"user":{"ticks":3330,"time":{"ms":8}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8880044}},"memstats":{"gc_next":9976992,"memory_alloc":8215704,"memory_total":387954640},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:05:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    6Gh5-3EBgVvfk2KqD4_v
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:05:36.000
+
+May 9, 2020 @ 18:05:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.type:
+    filebeat
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    724,714
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:05:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2120,"time":{"ms":11}},"total":{"ticks":4470,"time":{"ms":14},"value":4470},"user":{"ticks":2350,"time":{"ms":3}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8850042}},"memstats":{"gc_next":9863360,"memory_alloc":7006976,"memory_total":323960696},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2035}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.06,"15":0.01,"5":0.03,"norm":{"1":0.03,"15":0.005,"5":0.015}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:05:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    5mh4-3EBgVvfk2KqpY_e
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:05:06.000
+
+May 9, 2020 @ 18:05:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,186,091
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:05:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2090,"time":{"ms":3}},"total":{"ticks":5410,"time":{"ms":12},"value":5410},"user":{"ticks":3320,"time":{"ms":9}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8850045}},"memstats":{"gc_next":9976992,"memory_alloc":7258488,"memory_total":386997424},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":1996}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:05:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    5Wh4-3EBgVvfk2Kqh482
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:05:06.000
+
+May 9, 2020 @ 18:04:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    723,649
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:04:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2110,"time":{"ms":4}},"total":{"ticks":4460,"time":{"ms":11},"value":4460},"user":{"ticks":2350,"time":{"ms":7}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8820041}},"memstats":{"gc_next":9863360,"memory_alloc":6132312,"memory_total":323086032},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":343},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.11,"15":0.01,"5":0.03,"norm":{"1":0.055,"15":0.005,"5":0.015}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:04:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    42h4-3EBgVvfk2KqHY8k
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:04:36.000
+
+May 9, 2020 @ 18:04:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,185,062
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:04:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2090},"total":{"ticks":5400,"time":{"ms":11},"value":5400},"user":{"ticks":3310,"time":{"ms":11}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8820045}},"memstats":{"gc_next":9976992,"memory_alloc":6397088,"memory_total":386136024},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:04:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    5Gh4-3EBgVvfk2KqJY-M
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:04:36.000
+
+May 9, 2020 @ 18:04:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,184,017
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:04:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2090,"time":{"ms":2}},"total":{"ticks":5390,"time":{"ms":18},"value":5390},"user":{"ticks":3300,"time":{"ms":16}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8790044}},"memstats":{"gc_next":9976992,"memory_alloc":5686744,"memory_total":385425680},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:04:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    4Wh3-3EBgVvfk2KqnI_T
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:04:06.000
+
+May 9, 2020 @ 18:04:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    722,604
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:04:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2100,"time":{"ms":5}},"total":{"ticks":4440,"time":{"ms":18},"value":4440},"user":{"ticks":2340,"time":{"ms":13}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8790043}},"memstats":{"gc_next":9863360,"memory_alloc":5259632,"memory_total":322213352},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":343},"write":{"bytes":2022}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:04:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    4mh3-3EBgVvfk2Kqu497
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:04:06.000
+
+May 9, 2020 @ 18:03:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    721,552
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:03:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2100,"time":{"ms":10}},"total":{"ticks":4430,"time":{"ms":12},"value":4430},"user":{"ticks":2330,"time":{"ms":2}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8760042}},"memstats":{"gc_next":9842768,"memory_alloc":7875624,"memory_total":321258248},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2028}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0,"norm":{"1":0.005,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:03:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    32h3-3EBgVvfk2KqMo_C
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:03:36.000
+
+May 9, 2020 @ 18:03:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,182,972
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:03:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2090,"time":{"ms":3}},"total":{"ticks":5370,"time":{"ms":13},"value":5370},"user":{"ticks":3280,"time":{"ms":10}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8760044}},"memstats":{"gc_next":9974848,"memory_alloc":8137920,"memory_total":384303840},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:03:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    4Gh3-3EBgVvfk2KqO48q
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:03:36.000
+
+May 9, 2020 @ 18:03:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    720,494
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:03:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2090,"time":{"ms":3}},"total":{"ticks":4420,"time":{"ms":10},"value":4420},"user":{"ticks":2330,"time":{"ms":7}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8730042}},"memstats":{"gc_next":9842768,"memory_alloc":7193200,"memory_total":320575824},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2008}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.01,"15":0,"5":0.01,"norm":{"1":0.005,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:03:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    3mh2-3EBgVvfk2Kq0Y8Y
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:03:06.000
+
+May 9, 2020 @ 18:03:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,181,927
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:03:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2080,"time":{"ms":11}},"total":{"ticks":5350,"time":{"ms":12},"value":5350},"user":{"ticks":3270,"time":{"ms":1}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8730044}},"memstats":{"gc_next":9974848,"memory_alloc":7361920,"memory_total":383527840},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":1996}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:03:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    3Wh2-3EBgVvfk2Kqso9w
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:03:06.000
+
+May 9, 2020 @ 18:02:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    719,452
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:02:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2090},"total":{"ticks":4410,"time":{"ms":12},"value":4410},"user":{"ticks":2320,"time":{"ms":12}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8700042}},"memstats":{"gc_next":9842768,"memory_alloc":6219664,"memory_total":319602288},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":343},"write":{"bytes":2028}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.02,"15":0,"5":0.01,"norm":{"1":0.01,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:02:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    22h2-3EBgVvfk2KqSI9g
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:02:36.000
+
+May 9, 2020 @ 18:02:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,180,898
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:02:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2070,"time":{"ms":12}},"total":{"ticks":5340,"time":{"ms":12},"value":5340},"user":{"ticks":3270}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8700044}},"memstats":{"gc_next":9974848,"memory_alloc":6478936,"memory_total":382644856},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:02:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    3Gh2-3EBgVvfk2KqUI_H
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:02:36.000
+
+May 9, 2020 @ 18:02:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    718,394
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:02:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2080,"time":{"ms":12}},"total":{"ticks":4390,"time":{"ms":20},"value":4390},"user":{"ticks":2310,"time":{"ms":8}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8670042}},"memstats":{"gc_next":9842768,"memory_alloc":5331448,"memory_total":318714072},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2027}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.04,"15":0,"5":0.01,"norm":{"1":0.02,"15":0,"5":0.005}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:02:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    2mh1-3EBgVvfk2Kq5o-2
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:02:06.000
+
+May 9, 2020 @ 18:02:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,179,853
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:02:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2060,"time":{"ms":1}},"total":{"ticks":5330,"time":{"ms":19},"value":5330},"user":{"ticks":3270,"time":{"ms":18}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8670044}},"memstats":{"gc_next":9974848,"memory_alloc":5515688,"memory_total":381681608},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:02:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    2Wh1-3EBgVvfk2KqyI8N
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:02:06.000
+
+May 9, 2020 @ 18:01:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    717,337
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:01:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2070,"time":{"ms":10}},"total":{"ticks":4370,"time":{"ms":11},"value":4370},"user":{"ticks":2300,"time":{"ms":1}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8640043}},"memstats":{"gc_next":9841616,"memory_alloc":7858296,"memory_total":317687744},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2014}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0.06,"15":0,"5":0.02,"norm":{"1":0.03,"15":0,"5":0.01}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:01:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    12h1-3EBgVvfk2KqXY_8
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:01:36.000
+
+May 9, 2020 @ 18:01:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,178,808
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:01:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2060,"time":{"ms":6}},"total":{"ticks":5310,"time":{"ms":12},"value":5310},"user":{"ticks":3250,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8640044}},"memstats":{"gc_next":10045680,"memory_alloc":8184648,"memory_total":380730040},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":342},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:01:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    2Gh1-3EBgVvfk2KqZo9l
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:01:36.000
+
+May 9, 2020 @ 18:01:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    716,293
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:01:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2060,"time":{"ms":7}},"total":{"ticks":4360,"time":{"ms":10},"value":4360},"user":{"ticks":2300,"time":{"ms":3}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8610043}},"memstats":{"gc_next":9841616,"memory_alloc":6991472,"memory_total":316820920},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":342},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:01:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    1mh0-3EBgVvfk2Kq_I9T
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:01:06.000
+
+May 9, 2020 @ 18:01:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,177,763
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:01:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2050,"time":{"ms":8}},"total":{"ticks":5300,"time":{"ms":11},"value":5300},"user":{"ticks":3250,"time":{"ms":3}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8610044}},"memstats":{"gc_next":10045680,"memory_alloc":7319232,"memory_total":379864624},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":344},"write":{"bytes":2016}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:01:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    1Wh0-3EBgVvfk2Kq3Y-r
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:01:06.000
+
+May 9, 2020 @ 18:00:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    715,248
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:00:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2060,"time":{"ms":2}},"total":{"ticks":4360,"time":{"ms":12},"value":4360},"user":{"ticks":2300,"time":{"ms":10}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8580042}},"memstats":{"gc_next":9841616,"memory_alloc":6217680,"memory_total":316047128},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":343},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:00:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    02h0-3EBgVvfk2Kqc4-a
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:00:36.000
+
+May 9, 2020 @ 18:00:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,176,718
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:00:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2040,"time":{"ms":9}},"total":{"ticks":5280,"time":{"ms":13},"value":5280},"user":{"ticks":3240,"time":{"ms":4}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8580044}},"memstats":{"gc_next":10045680,"memory_alloc":6620744,"memory_total":379166136},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2045}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:00:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    1Gh0-3EBgVvfk2KqfI8B
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:00:36.000
+
+May 9, 2020 @ 18:00:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,175,648
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:00:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2040,"time":{"ms":5}},"total":{"ticks":5280,"time":{"ms":22},"value":5280},"user":{"ticks":3240,"time":{"ms":17}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8550044}},"memstats":{"gc_next":10045680,"memory_alloc":5577152,"memory_total":378122544},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":3,"done":3},"harvester":{"closed":1,"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":2,"batches":2,"total":2},"read":{"bytes":690},"write":{"bytes":3019}},"pipeline":{"clients":15,"events":{"active":0,"filtered":1,"published":2,"total":3},"queue":{"acked":2}}},"registrar":{"states":{"current":2,"update":3},"writes":{"success":3,"total":3}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:00:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    0Whz-3EBgVvfk2Kq849I
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:00:06.000
+
+May 9, 2020 @ 18:00:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    714,203
+fileset.name:
+    syslog
+message:
+    2020-05-09T22:00:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2050,"time":{"ms":7}},"total":{"ticks":4340,"time":{"ms":18},"value":4340},"user":{"ticks":2290,"time":{"ms":11}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8550042}},"memstats":{"gc_next":9841616,"memory_alloc":5337256,"memory_total":315166704},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2014}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 18:00:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    0mh0-3EBgVvfk2KqEY_x
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 18:00:06.000
+
+May 9, 2020 @ 17:59:45.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,175,462
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:59:45.636Z#011INFO#011log/harvester.go:276#011File is inactive: /var/log/auth.log. Closing because close_inactive of 5m0s reached.
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:59:45.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    0Ghz-3EBgVvfk2KquI-w
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:59:45.000
+
+May 9, 2020 @ 17:59:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    713,159
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:59:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2050,"time":{"ms":8}},"total":{"ticks":4330,"time":{"ms":12},"value":4330},"user":{"ticks":2280,"time":{"ms":4}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8520043}},"memstats":{"gc_next":9840464,"memory_alloc":7862088,"memory_total":314136728},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2014}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:59:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    z2hz-3EBgVvfk2KqiY83
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:59:36.000
+
+May 9, 2020 @ 17:59:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,174,416
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:59:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2030,"time":{"ms":5}},"total":{"ticks":5250,"time":{"ms":13},"value":5250},"user":{"ticks":3220,"time":{"ms":8}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":10},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8520044}},"memstats":{"gc_next":10044144,"memory_alloc":7923688,"memory_total":376890656},"runtime":{"goroutines":115}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":2,"running":2}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":345},"write":{"bytes":2017}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:59:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    zmhz-3EBgVvfk2Kqfo8W
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:59:36.000
+
+May 9, 2020 @ 17:59:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,173,370
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:59:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2030,"time":{"ms":6}},"total":{"ticks":5250,"time":{"ms":12},"value":5250},"user":{"ticks":3220,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":10},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8490044}},"memstats":{"gc_next":10044144,"memory_alloc":7144216,"memory_total":376111184},"runtime":{"goroutines":115}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":2,"running":2}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":342},"write":{"bytes":2017}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:59:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    zGhz-3EBgVvfk2KqHI9t
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:59:06.000
+
+May 9, 2020 @ 17:59:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.type:
+    filebeat
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    712,115
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:59:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2040,"time":{"ms":9}},"total":{"ticks":4310,"time":{"ms":10},"value":4310},"user":{"ticks":2270,"time":{"ms":1}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8490042}},"memstats":{"gc_next":9840464,"memory_alloc":6997632,"memory_total":313272272},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":342},"write":{"bytes":2014}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:59:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    zWhz-3EBgVvfk2KqJ4-N
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:59:06.000
+
+May 9, 2020 @ 17:58:36.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,172,324
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:58:36.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2020,"time":{"ms":8}},"total":{"ticks":5230,"time":{"ms":14},"value":5230},"user":{"ticks":3210,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":10},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8460044}},"memstats":{"gc_next":10044144,"memory_alloc":6267472,"memory_total":375234440},"runtime":{"goroutines":115}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":2,"running":2}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":347},"write":{"bytes":2018}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:58:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    ymhy-3EBgVvfk2Kqk4-z
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:58:36.000
+
+May 9, 2020 @ 17:58:36.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    711,071
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:58:36.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2030,"time":{"ms":6}},"total":{"ticks":4300,"time":{"ms":12},"value":4300},"user":{"ticks":2270,"time":{"ms":6}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8460042}},"memstats":{"gc_next":9840464,"memory_alloc":6213760,"memory_total":312488400},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2015}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:58:36.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    y2hy-3EBgVvfk2Kqno_U
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:58:36.000
+
+May 9, 2020 @ 17:58:06.000
+
+agent.hostname:
+    DVWA-VM3
+agent.id:
+    2ed95a04-b6e5-4f9d-9f13-ab015a1344dd
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    8b4152c6-2a0b-431b-a024-c8c674049d4d
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6434
+log.file.path:
+    /var/log/syslog
+log.offset:
+    1,171,277
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:58:06.169Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2010,"time":{"ms":1}},"total":{"ticks":5210,"time":{"ms":21},"value":5210},"user":{"ticks":3200,"time":{"ms":20}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":10},"info":{"ephemeral_id":"8b4152c6-2a0b-431b-a024-c8c674049d4d","uptime":{"ms":8430044}},"memstats":{"gc_next":10044144,"memory_alloc":5380792,"memory_total":374347760},"runtime":{"goroutines":115}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":2,"running":2}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":346},"write":{"bytes":2017}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:58:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM3
+host.name:
+    DVWA-VM3
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    yGhy-3EBgVvfk2KqMo8K
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:58:06.000
+
+May 9, 2020 @ 17:58:06.000
+
+agent.hostname:
+    DVWA-VM2
+agent.id:
+    8c13964d-df93-45ea-8eca-05bc971c6023
+agent.type:
+    filebeat
+agent.ephemeral_id:
+    1ee611fa-309e-4227-abaa-3e2df1248d12
+agent.version:
+    7.4.0
+process.name:
+    filebeat
+process.pid:
+    6360
+log.file.path:
+    /var/log/syslog
+log.offset:
+    710,026
+fileset.name:
+    syslog
+message:
+    2020-05-09T21:58:06.147Z#011INFO#011[monitoring]#011log/log.go:145#011Non-zero metrics in the last 30s#011{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":2020,"time":{"ms":8}},"total":{"ticks":4280,"time":{"ms":19},"value":4280},"user":{"ticks":2260,"time":{"ms":11}}},"handles":{"limit":{"hard":4096,"soft":1024},"open":9},"info":{"ephemeral_id":"1ee611fa-309e-4227-abaa-3e2df1248d12","uptime":{"ms":8430042}},"memstats":{"gc_next":9840464,"memory_alloc":5425904,"memory_total":311700544},"runtime":{"goroutines":110}},"filebeat":{"events":{"added":1,"done":1},"harvester":{"open_files":1,"running":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":1,"batches":1,"total":1},"read":{"bytes":343},"write":{"bytes":1995}},"pipeline":{"clients":15,"events":{"active":0,"published":1,"total":1},"queue":{"acked":1}}},"registrar":{"states":{"current":2,"update":1},"writes":{"success":1,"total":1}},"system":{"load":{"1":0,"15":0,"5":0,"norm":{"1":0,"15":0,"5":0}}}}}}
+input.type:
+    log
+@timestamp:
+    May 9, 2020 @ 17:58:06.000
+ecs.version:
+    1.1.0
+service.type:
+    system
+host.hostname:
+    DVWA-VM2
+host.name:
+    DVWA-VM2
+event.timezone:
+    +00:00
+event.module:
+    system
+event.dataset:
+    system.syslog
+_id:
+    yWhy-3EBgVvfk2KqPY8q
+_type:
+    _doc
+_index:
+    filebeat-7.4.0-2020.05.09-000001
+_score:
+    - 
+suricata.eve.timestamp:
+    May 9, 2020 @ 17:58:06.000
+
+
